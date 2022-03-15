@@ -1,0 +1,33 @@
+.about {
+    margin-bottom: 40px;
+    h2 {
+        background: lightgrey;
+        font-weight: 400;
+        font-size: 40px;
+        padding: 7px 0 7px 10px;
+        margin-bottom: 10px;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    &__item {
+        width: 200px;
+        background: #8fb0b5;
+        padding: 10px;
+        text-align: center;
+        transition: 0.5s;
+        &>a {
+            display: block;
+            color: #fff;
+            font-size: 20px;
+        }
+        &:hover {
+            background: #6fa8b0;
+            transition: 0.5s;
+        }
+    }
+}
