@@ -1,0 +1,34 @@
+.info {
+    margin-bottom: 40px;
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+        &>img {
+            height: 245px;
+            align-self: center;
+        }
+    }
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        .title {
+            background: lightgrey;
+            font-weight: 400;
+            font-size: 25px;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        .text {
+            background: #8fb0b5;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+    }
+}

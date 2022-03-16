@@ -1,0 +1,15 @@
+.partners {
+    margin-bottom: 40px;
+    h3 {
+        background: lightgrey;
+        font-weight: 400;
+        font-size: 40px;
+        padding: 7px 0 7px 10px;
+        margin-bottom: 20px;
+    }
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}

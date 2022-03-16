@@ -1,0 +1,10 @@
+footer {
+    background: lightgrey;
+    padding: 10px 0;
+    .footer {
+        &__wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
