@@ -1,6 +1,22 @@
-.header {
-    &__wrap {
-        display: flex;
-        justify-content: space-between;
+header {
+    .header {
+        &__wrap {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    header {
+        .header {
+            &__wrap {
+                flex-direction: column;
+                align-items: center;
+                .logo {
+                    width: 290px;
+                }
+            }
+        }
     }
 }

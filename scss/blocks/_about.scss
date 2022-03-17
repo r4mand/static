@@ -31,3 +31,11 @@
         }
     }
 }
+
+@media screen and (max-width:375px) {
+    .about {
+        h2 {
+            font-size: 30px;
+        }
+    }
+}

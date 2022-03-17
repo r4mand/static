@@ -32,3 +32,22 @@
         }
     }
 }
+
+@media screen and (max-width:425px) {
+    .info {
+        &__item {
+            &>img {
+                width: 290px;
+                height: 203px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:620px) {
+    .info {
+        &__item {
+            flex-direction: column;
+        }
+    }
+}

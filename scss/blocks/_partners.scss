@@ -13,3 +13,11 @@
         justify-content: space-around;
     }
 }
+
+@media screen and (max-width:375px) {
+    .partners {
+        h3 {
+            font-size: 30px;
+        }
+    }
+}

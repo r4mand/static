@@ -16,9 +16,9 @@
 <body>
     <header>
         <div class="container">
-            <ul class="header__wrap logo">
+            <ul class="header__wrap">
                 <li class="logo__item">
-                    <a href="http://rapo.ru/"><img alt="РАПО" src="http://rapo.ru/bitrix/templates/rapo/css/img/logo.png"></a>
+                    <a href="http://rapo.ru/"><img class="logo" alt="РАПО" src="http://rapo.ru/bitrix/templates/rapo/css/img/logo.png"></a>
                 </li>
                 <li class="logo__item">
                     <a href="http://mpaa.org"><img alt="MPA" height="138" src="http://rapo.ru/upload/medialibrary/845/845dc5e6a50209083b10e45d73dde22a.JPG" width="182"></a>
@@ -31,28 +31,28 @@
             <div class="container ">
                 <ul class="menu__wrap">
                     <li class="menu__item">
-                        <a class="menu__link active" href="http://rapo.ru/">Главная</a>
+                        <a class="menu__link" href="http://rapo.ru/">Главная</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link news" href="http://rapo.ru/news/">Новости</a>
+                        <a class="menu__link" href="http://rapo.ru/news/">Новости</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link protection" href="http://rapo.ru/protection/">Наши услуги</a>
+                        <a class="menu__link" href="http://rapo.ru/protection/">Наши услуги</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link legislation" href="http://rapo.ru/legislation/practice">Приговоры</a>
+                        <a class="menu__link" href="http://rapo.ru/legislation/practice">Приговоры</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link industry" href="http://rapo.ru/industry/">Киноиндустрия</a>
+                        <a class="menu__link" href="http://rapo.ru/industry/">Киноиндустрия</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link links" href="http://rapo.ru/links/">Ссылки и ресурсы</a>
+                        <a class="menu__link" href="http://rapo.ru/links/">Ссылки и ресурсы</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link about" href="http://rapo.ru/about/">О компании</a>
+                        <a class="menu__link" href="http://rapo.ru/about/">О компании</a>
                     </li>
                     <li class="menu__item">
-                        <a class="menu__link contacts" href="http://rapo.ru/contacts/">Контакты</a>
+                        <a class="menu__link" href="http://rapo.ru/contacts/">Контакты</a>
                     </li>
                 </ul>
             </div>
@@ -92,12 +92,14 @@
                         </div>
                         <div class="content__item">
                             <p>Руководство НП “РАПО” планирует принять участие в VIII Международном Форуме “Инновационное развитие через рынок интеллектуальной собственности”</p>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-journal-text" viewBox="0 0 16 16">
-                                <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
-                                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
-                                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
-                            </svg>
-                            <p class="item__data"><span class="bold">31</span>Марта</p>
+                            <div class="item__data">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-journal-text" viewBox="0 0 16 16">
+                                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                                </svg>
+                                <p><span class="bold">31</span>Марта</p>
+                            </div>
                         </div>
                     </div>
                 </div>
